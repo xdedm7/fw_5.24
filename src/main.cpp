@@ -145,4 +145,3 @@ void Serial2_callback()
        Serial.print(camera);
      Camera_Receive_Data(camera);
 }
-
