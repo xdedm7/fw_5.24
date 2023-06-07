@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"path": "../../simple_foc_test"
+		},
+		{
+			"name": "fw_3.29",
+			"path": "../../服外项目3月29日/fw_3.29"
+		},
+		{
+			"name": "fw_5.24",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"MicroPython.executeButton": [
+			{
+				"text": "▶",
+				"tooltip": "运行",
+				"alignment": "left",
+				"command": "extension.executeFile",
+				"priority": 3.5
+			}
+		],
+		"MicroPython.syncButton": [
+			{
+				"text": "$(sync)",
+				"tooltip": "同步",
+				"alignment": "left",
+				"command": "extension.execute",
+				"priority": 4
+			}
+		],
+		"files.associations": {
+			"string": "cpp",
+			"thread": "cpp"
+		}
+	}
+}
